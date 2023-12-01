@@ -49,7 +49,7 @@ const Banner = () => {
                             {stars}
                         </div>
                         <div className="flex flex-col items-center">
-                            <span className="text-xl font-semibold text-gray-800">5.0</span>
+                          
                             <span className="text-sm text-gray-600">From 200+ happy users</span>
                         </div>
                     </div>

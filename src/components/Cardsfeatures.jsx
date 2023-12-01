@@ -13,7 +13,7 @@ const features = [
     title: 'Auto Event Import',
     description: 'Automatically import events from emails, social media, and other sources, so you never miss a beat or have to manually input details.',
     imageAlt: 'Calendar with events',
-    imageSrc : 'https://framerusercontent.com/images/psdpn17XuwZ0NdeAgqZ1B9jIs.svg',
+    imageSrc : 'https://framerusercontent.com/images/MnBPtp8lNOwne9QGiLZLBCkZK9k.svg',
 
     // imageSrc: 'path-to-your-event-calendar-image.png', // Uncomment and replace with actual path
   },
@@ -21,7 +21,7 @@ const features = [
     title: 'Task Delegation',
     description: 'Easily assign tasks to team members, family, or friends, promoting shared responsibility and seamless collaboration.',
     imageAlt: 'Task calendar',
-    imageSrc : 'https://framerusercontent.com/images/psdpn17XuwZ0NdeAgqZ1B9jIs.svg',
+    imageSrc : 'https://framerusercontent.com/images/9zLLT2PHM1pdm0cmjDvqVV6u4.svg',
     // imageSrc: 'path-to-your-task-calendar-image.png', // Uncomment and replace with actual path
   },
 ];
