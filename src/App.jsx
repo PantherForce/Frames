@@ -15,7 +15,7 @@ import Bottom from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col ">
       <Header />
       <main className="flex-grow">
         <Banner />
@@ -28,7 +28,7 @@ function App() {
      <Faqsection/>
      <Pricingsection/>
      <Action/>
-     <Bottom/>
+     <Footer/>
       
     </div>
   );

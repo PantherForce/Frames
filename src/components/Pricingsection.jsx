@@ -26,7 +26,7 @@ const plans = [
       'An incredible feature so useful',
       'A cool feature'
     ],
-    isBestDeal: true
+    isBestDeal: false
   },
   {
     plan: 'Pro',
@@ -49,8 +49,7 @@ const Pricingsection = () => {
 
   return (
     <div className="bg-white p-4 sm:p-8">
-    <div className="flex flex-col sm:flex-row justify-center items-center mb-8 space-y-4 sm:space-y-0 sm:space-x-4">
-      <button
+    <div className="flex flex-col sm:flex-row justify-center items-center mb-8 space-y-4 sm:space-y-0 sm:space-x-4">  <button
         onClick={() => setIsAnnual(false)}
         className={`w-full sm:w-auto px-4 py-2 font-semibold rounded-lg transition-colors duration-300 ${!isAnnual ? 'text-white bg-black' : 'text-black bg-gray-200'}`}
       >
@@ -63,11 +62,11 @@ const Pricingsection = () => {
         Annually
       </button>
     </div>
-    <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-4">
-      {plans.map((plan, index) => (
-        <Pricecard key={index} {...plan} isAnnual={isAnnual} />
-      ))}
-    </div>
+    <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center">
+        {plans.map((plan, index) => (
+          <Pricecard key={index} {...plan} isAnnual={isAnnual} />
+        ))}
+      </div>
   </div>
   );
 };

@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Featurethree = () => {
+    useEffect(() => {
+        AOS.init({ duration: 2000 }); // Initialize AOS
+      }, []);
+
   return (
     <section className="container mx-auto px-6 sm:px-12 lg:px-24 py-12">
       <div className="flex flex-col lg:flex-row justify-between items-center">
@@ -30,7 +38,7 @@ const Featurethree = () => {
         <div className="lg:w-1/2 max-w-lg mx-auto">
           <div className="border border-dashed border-gray-300 rounded-lg p-6">
             {/* Calendar or image placeholder */}
-            <div className="text-center">
+            <div className="text-center" data-aos="fade-down" >
               {/* Replace with actual calendar or image component */}
               <img src="https://framerusercontent.com/images/xjG69OjCFt0Z3YQvNa3HNBBP5G0.png?scale-down-to=512" alt="" srcset="" />
             </div>

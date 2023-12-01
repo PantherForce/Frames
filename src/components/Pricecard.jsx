@@ -1,5 +1,4 @@
 
-// PriceCard.js
 import React from 'react';
 
 const Pricecard = ({ plan, price, features, isAnnual, isBestDeal }) => {
