@@ -29,12 +29,12 @@ const features = [
 const FeatureCard = ({ title, description, imageSrc, imageAlt }) => (
     <div className="flex flex-col items-center p-4">
       <div className="bg-white p-4 rounded-lg mb-4">
-        <div className="w-60 h-40 flex items-center justify-center">
+        <div className="w-64 bg-gray-100 h-48 flex items-center justify-center">
           <img src={imageSrc} alt={imageAlt} className="max-h-40" />
         </div>
       </div>
       <h3 className="bg-yellow-200 px-4 py-1 text-sm rounded-2xl font-semibold text-black mb-2 text-center">{title}</h3>
-      <p className="text-gray-600 text-center text-sm">{description}</p>
+      <p className="text-gray-600 text-center text-xs line-clamp-3">{description}</p>
     </div>
   );
   
@@ -44,8 +44,8 @@ const FeatureCard = ({ title, description, imageSrc, imageAlt }) => (
         <div className='flex justify-center'>
           <button className="bg-gray-200 text-black m-4 px-6 py-2 rounded-2xl">And so much more... 💼</button>
         </div>
-        <div className='text-center text-4xl font-bold mb-8'>
-          <h1>Discover your new superpowers</h1>
+        <div className='text-center text-7xl font-bold mb-8'>
+          <h1 className='text-5xl'>Our features to make your life easier</h1>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {features.map((feature, index) => (

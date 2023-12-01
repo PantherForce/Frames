@@ -49,6 +49,12 @@ const Pricingsection = () => {
 
   return (
     <div className="bg-white p-4 sm:p-8">
+         <div className='flex justify-center'>
+          <button className="bg-gray-200 text-black m-4 px-6 py-2 rounded-2xl">Pricing and plans 💰</button>
+        </div>
+        <div className='text-center text-7xl font-bold mb-8'>
+          <h1 className='text-4xl'>Find the best plan for your needs</h1>
+        </div>
     <div className="flex flex-col sm:flex-row justify-center items-center mb-8 space-y-4 sm:space-y-0 sm:space-x-4">  <button
         onClick={() => setIsAnnual(false)}
         className={`w-full sm:w-auto px-4 py-2 font-semibold rounded-lg transition-colors duration-300 ${!isAnnual ? 'text-white bg-black' : 'text-black bg-gray-200'}`}

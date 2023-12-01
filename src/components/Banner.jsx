@@ -18,10 +18,13 @@ const Banner = () => {
 
 
     return (
-        <div className="text-center p-6 sm:p-12 lg:p-20 bg-gray-50">
-            <p className="text-sm sm:text-base lg:text-lg">An other way to manage time️</p>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-800 my-6">
-                Your new favorite <br></br> calendar app
+        <div className="text-center p-6 sm:p-12 lg:p-20 bg-white">
+            
+            <button className="text-xs sm:text-sm lg:text-base font-semibold text-black bg-gray-200 rounded-full px-4 py-1">
+            An other way to manage time️
+          </button>
+            <h1 className="text-4xl sm:text-4xl lg:text-7xl font-bold text-gray-800 my-6">
+                Your new favorite <br></br> calendar 🗓️  app
             </h1>
             <div className="container mx-auto px-4">
             <p className="text-gray-500 text-base sm:text-lg lg:text-xl mb-8">
