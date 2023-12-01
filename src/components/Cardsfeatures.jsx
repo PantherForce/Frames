@@ -45,7 +45,7 @@ const Cardsfeatures = () => {
                 <button className="bg-gray-200 text-black m-4 px-6 py-2 rounded-2xl">And so much more... 💼</button>
             </div>
             <div className='text-center text-7xl font-bold mb-8'>
-                <h1 className='text-5xl'>Our features to make your life easier</h1>
+            <h2 className="text-2xl sm:text-4xl font-bold text-center mb-6">Our features to make your life easier</h2>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {features.map((feature, index) => (
