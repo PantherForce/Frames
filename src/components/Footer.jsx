@@ -9,9 +9,9 @@ const Footer = () => {
           <h5 className="text-lg font-bold mb-2">Milton</h5>
           <p className="text-gray-600 text-sm mb-4">A short text explaining why my startup is so cool.</p>
           <p className="text-gray-600 text-sm">&copy; My super start-up</p>
-          {/* Social icons */}
+
           <div className="flex space-x-2 mt-4">
-            {/* Icons would go here */}
+
           </div>
         </div>
         <div>
@@ -47,11 +47,11 @@ const Footer = () => {
             <li>Mastering Your Schedule: Top Time Management Techniques for Balancing Work and Life</li>
             <br></br>
             <li>Organizing Your Calendar for Enhanced Productivity and Focus</li>
-            
+
           </ul>
         </div>
       </div>
-      
+
     </footer>
   );
 };

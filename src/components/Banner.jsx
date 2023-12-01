@@ -19,18 +19,18 @@ const Banner = () => {
 
     return (
         <div className="text-center p-6 sm:p-12 lg:p-20 bg-white">
-            
+
             <button className="text-xs sm:text-sm lg:text-base font-semibold text-black bg-gray-200 rounded-full px-4 py-1">
-            An other way to manage time️
-          </button>
+                An other way to manage time️
+            </button>
             <h1 className="text-4xl sm:text-4xl lg:text-7xl font-bold text-gray-800 my-6">
                 Your new favorite <br></br> calendar 🗓️  app
             </h1>
             <div className="container mx-auto px-4">
-            <p className="text-gray-500 text-base sm:text-lg lg:text-xl mb-8">
-                Here you should explain how cool your app is. Remember, focus on the benefits for your users, not on the features.
-            </p>
-        </div>
+                <p className="text-gray-500 text-base sm:text-lg lg:text-xl mb-8">
+                    Here you should explain how cool your app is. Remember, focus on the benefits for your users, not on the features.
+                </p>
+            </div>
             <button className="bg-black text-white font-bold py-2 sm:py-3 px-4 sm:px-8 rounded-2xl">
                 Get started, it's free
             </button>
@@ -52,7 +52,7 @@ const Banner = () => {
                             {stars}
                         </div>
                         <div className="flex flex-col items-center">
-                          
+
                             <span className="text-sm text-gray-600">From 200+ happy users</span>
                         </div>
                     </div>
