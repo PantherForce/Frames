@@ -3,14 +3,15 @@ import React from 'react'
 const Feature = () => {
   return (
     <section className="container mx-auto px-6 sm:px-12 lg:px-24 py-12">
-      <div className='flex justify-center'>
-        <button className="bg-gray-200 text-black text-xs sm:text-sm lg:text-base px-4 sm:px-6 py-2 rounded-2xl">
-          Our main features 🦸🏼
-        </button>
-      </div>
-      <div className='text-center text-3xl sm:text-4xl lg:text-5xl font-bold my-6'>
-        <h1>Discover your new superpowers</h1>
-      </div>
+   <div className='flex justify-center'>
+  <button className="bg-gray-200 text-black text-xs sm:text-sm lg:text-base px-4 sm:px-6 py-2 rounded-2xl">
+    Our main features 🦸🏼
+  </button>
+</div>
+<div className='text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold my-4 sm:my-5 md:my-6'>
+  <h1>Discover your new superpowers</h1>
+</div>
+
       <div className="flex flex-col lg:flex-row justify-between items-center">
         <div className="lg:w-1/2 mb-8 lg:mb-0">
           <button className="text-xs sm:text-sm lg:text-base font-semibold text-blue-600 bg-blue-100 rounded-full px-4 py-1">

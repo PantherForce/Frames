@@ -27,43 +27,38 @@ const features = [
 ];
 
 const FeatureCard = ({ title, description, imageSrc, imageAlt }) => (
-  <div className="flex flex-col items-center p-4">
-    <div className="bg-white p-4 rounded-lg mb-4">
-      {/* Replace div with img tag and uncomment imageSrc when images are available */}
-     
-      <div className="w-60 h-40 flex items-center justify-center">
-      { <img src={imageSrc} alt={imageAlt} className="max-h-40" /> }
-      </div>
-    </div>
-    <h3 className="bg-yellow-200 px-4 py-1 text-sm rounded-2xl font-semibold text-black mb-2">{title}</h3>
-    <p className="text-gray-600 text-center text-sm ">{description}</p>
-  </div>
-);
-
-const Cardsfeatures = () => {
-  return (
-    <div className="container mx-auto p-16">
-         <div className='flex justify-center '>
-        <button className="bg-gray-200 text-black m-4  px-6 py-2 rounded-2xl">And so much more... 💼</button>
-       </div>
-        <div className='text-center text-4xl font-bold'>
-            <h1>Discover your new superpowers</h1>
+    <div className="flex flex-col items-center p-4">
+      <div className="bg-white p-4 rounded-lg mb-4">
+        <div className="w-60 h-40 flex items-center justify-center">
+          <img src={imageSrc} alt={imageAlt} className="max-h-40" />
         </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 py-12">
-        {features.map((feature, index) => (
-          <FeatureCard key={index} {...feature} />
-        ))}
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {features.map((feature, index) => (
-          <FeatureCard key={index} {...feature} />
-        ))}
-      </div>
-
+      <h3 className="bg-yellow-200 px-4 py-1 text-sm rounded-2xl font-semibold text-black mb-2 text-center">{title}</h3>
+      <p className="text-gray-600 text-center text-sm">{description}</p>
     </div>
-    
   );
-};
+  
+  const Cardsfeatures = () => {
+    return (
+      <div className="container mx-auto p-4 md:p-16">
+        <div className='flex justify-center'>
+          <button className="bg-gray-200 text-black m-4 px-6 py-2 rounded-2xl">And so much more... 💼</button>
+        </div>
+        <div className='text-center text-4xl font-bold mb-8'>
+          <h1>Discover your new superpowers</h1>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {features.map((feature, index) => (
+            <FeatureCard key={index} {...feature} />
+          ))}
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {features.map((feature, index) => (
+            <FeatureCard key={index} {...feature} />
+          ))}
+        </div>
+      </div>
+    );
+  };
 
 export default Cardsfeatures;
