@@ -4,7 +4,7 @@ import React from 'react';
 const Bottom = () => {
   return (
     <footer className="bg-gray-100 p-8">
-      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-5 lg:grid-cols-5 gap-8">
         <div>
           <h5 className="text-lg font-bold mb-2">Milton</h5>
           <p className="text-gray-600 text-sm mb-4">A short text explaining why my startup is so cool.</p>
@@ -45,9 +45,9 @@ const Bottom = () => {
           <h5 className="text-lg font-bold mb-2">From the blog</h5>
           <ul className="text-gray-600 text-sm space-y-1">
             <li>Mastering Your Schedule: Top Time Management Techniques for Balancing Work and Life</li>
+            <br></br>
             <li>Organizing Your Calendar for Enhanced Productivity and Focus</li>
-            <li>The Power of Prioritization: Effective Strategies for Managing Your Time and Tasks</li>
-            <li>Maximizing Your Minutes: Essential Tips for Streamlining Your Daily Routine and Calendar</li>
+            
           </ul>
         </div>
       </div>
