@@ -11,7 +11,7 @@ import Cardfeatures from './components/Cardsfeatures';
 import Faqsection from './components/Faqsection';
 import Pricingsection from './components/Pricingsection';
 import Action from './components/Action';
-import Bottom from './components/Bottom';
+import Bottom from './components/Footer';
 
 function App() {
   return (
